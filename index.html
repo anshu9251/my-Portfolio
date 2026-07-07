@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title & SEO Meta -->
+  <title>Priyanshu Khandelwal - AI & ML Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Priyanshu Khandelwal, an AI Engineer specializing in LLM systems, RAG pipeline integration, Agentic workflow automation, and ML engineering.">
+  <meta name="keywords" content="Priyanshu Khandelwal, AI Engineer, LLM, RAG, Machine Learning, n8n, LangChain, FastAPI, Python, Portfolio">
+  <meta name="author" content="Priyanshu Khandelwal">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=11">
+</head>
+<body class="pixel-grid">
+
+  <!-- Header Section -->
+  <header id="header">
+    <div class="container flex justify-between items-center">
+      <div class="logo-container logo-shake-trigger">
+        <a href="#hero" class="logo-text">
+          <span class="accent">Priyanshu</span>.dev
+        </a>
+      </div>
+      
+      <!-- Nav Links -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#terminal">Terminal</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-btn" title="Toggle Theme" aria-label="Toggle dark/light theme">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" id="sun-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" id="moon-icon" class="hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+        
+        <!-- Music Synth Button -->
+        <div class="music-player" title="Play 8-Bit Chiptune Synth">
+          <button id="music-toggle" class="disc-btn" aria-label="Play/Pause retro music">
+            <!-- Retro Vinyl SVG with asymmetric shine reflection to show rotation -->
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%;">
+              <circle cx="50" cy="50" r="48" fill="#111" stroke="#eee" stroke-width="2"/>
+              
+              <!-- Off-center shiny reflections -->
+              <path d="M 50 50 L 85 15 A 48 48 0 0 1 98 50 Z" fill="rgba(255, 255, 255, 0.15)"/>
+              <path d="M 50 50 L 15 85 A 48 48 0 0 1 2 50 Z" fill="rgba(255, 255, 255, 0.15)"/>
+              
+              <circle cx="50" cy="50" r="38" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="5 3"/>
+              <circle cx="50" cy="50" r="28" fill="none" stroke="#444" stroke-width="1"/>
+              <circle cx="50" cy="50" r="18" fill="hsl(45, 100%, 55%)" />
+              
+              <!-- Off-center retro pixel block on vinyl label -->
+              <rect x="42" y="38" width="6" height="6" fill="#fff" />
+              
+              <circle cx="50" cy="50" r="6" fill="#000" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="menu-toggle" class="menu-btn" aria-label="Open Mobile Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section container" id="hero">
+    <div class="grid grid-cols-1 grid-cols-2 gap-8 items-center">
+      <div class="reveal active">
+        <div class="hero-tag">AI ENGINEER & DEVELOPER</div>
+        <h1 class="hero-title">Priyanshu Khandelwal</h1>
+        <p class="hero-tagline">AI Engineer | LLM Systems | ML Engineering</p>
+        <p class="hero-summary">
+          AI Engineer with experience building LLM-powered applications, agentic automation pipelines, and production-grade AI systems. Skilled in RAG architectures, prompt engineering, agentic workflows, and deploying end-to-end ML lifecycles.
+        </p>
+        <div class="hero-buttons">
+          <button id="contact-btn" class="pixel-button">Contact Me</button>
+          <a href="https://github.com/anshu9251" target="_blank" rel="noopener noreferrer" class="pixel-button secondary">GitHub</a>
+          <a href="https://linkedin.com/in/priyanshu92" target="_blank" rel="noopener noreferrer" class="pixel-button secondary">LinkedIn</a>
+        </div>
+      </div>
+      
+      <!-- Profile Picture Container -->
+      <div class="hero-profile-container reveal active">
+        <div class="profile-frame">
+          <img src="profile-pic (1).png" alt="Priyanshu Khandelwal" class="profile-img">
+        </div>
+        <div class="badge-tag">ONLINE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="pixel-divider">
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-bar"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+  </div>
+
+  <!-- Skills Section -->
+  <section class="skills-section container py-16" id="skills">
+    <h2 class="reveal">Technical Skills</h2>
+    <div class="skills-grid reveal">
+      
+      <!-- Left Column: Skill Meters -->
+      <div class="pixel-card">
+        <h3 class="mb-6">> Skill Levels</h3>
+        
+        <div class="skill-bar-wrapper">
+          <div class="skill-info">
+            <span>AI / ML Engineering</span>
+            <span class="percentage">92%</span>
+          </div>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-inner" data-width="92%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-bar-wrapper">
+          <div class="skill-info">
+            <span>LLMs & Agents (RAG, n8n, LangChain)</span>
+            <span class="percentage">90%</span>
+          </div>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-inner" data-width="90%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-bar-wrapper">
+          <div class="skill-info">
+            <span>Backend Integration & APIs (FastAPI, Django)</span>
+            <span class="percentage">88%</span>
+          </div>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-inner" data-width="88%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-bar-wrapper">
+          <div class="skill-info">
+            <span>Databases & Infrastructure (Postgres, VectorDB, Docker)</span>
+            <span class="percentage">85%</span>
+          </div>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-inner" data-width="85%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-bar-wrapper">
+          <div class="skill-info">
+            <span>Programming Languages (Python, SQL, JavaScript)</span>
+            <span class="percentage">85%</span>
+          </div>
+          <div class="skill-bar-outer">
+            <div class="skill-bar-inner" data-width="85%"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column: Detail Stack Cloud -->
+      <div class="pixel-card flex flex-col justify-between">
+        <div>
+          <h3 class="mb-4">> Technology Stack</h3>
+          <p class="mb-4" style="font-size: 1.15rem; color: hsl(var(--muted-text));">
+            Technologies I use for core development workflows:
+          </p>
+          <div class="tag-cloud">
+            <span class="pixel-tag">Scikit-learn</span>
+            <span class="pixel-tag">PyTorch</span>
+            <span class="pixel-tag">TensorFlow</span>
+            <span class="pixel-tag">Hugging Face</span>
+            <span class="pixel-tag">YOLO</span>
+            <span class="pixel-tag">LangChain</span>
+            <span class="pixel-tag">GPT-4</span>
+            <span class="pixel-tag">OpenAI API</span>
+            <span class="pixel-tag">RAG Architecture</span>
+            <span class="pixel-tag">Vector Databases</span>
+            <span class="pixel-tag">n8n Automation</span>
+            <span class="pixel-tag">FastAPI</span>
+            <span class="pixel-tag">Django REST</span>
+            <span class="pixel-tag">PostgreSQL</span>
+            <span class="pixel-tag">MongoDB</span>
+            <span class="pixel-tag">Docker</span>
+            <span class="pixel-tag">MLflow</span>
+            <span class="pixel-tag">Git</span>
+            <span class="pixel-tag">AWS / GCP</span>
+            <span class="pixel-tag">Python</span>
+            <span class="pixel-tag">SQL</span>
+            <span class="pixel-tag">JavaScript</span>
+            <span class="pixel-tag">C++</span>
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <p style="font-weight:bold; font-size: 1.1rem; border: 2px dashed hsl(var(--border)); padding: 0.5rem; text-align:center;">
+            IIT Guwahati × Masai Data Science Program Enrolled
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="pixel-divider">
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-bar"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+  </div>
+
+  <!-- Experience Section -->
+  <section class="experience-section container py-16" id="experience">
+    <h2 class="reveal">Work Experience</h2>
+    
+    <div class="timeline reveal">
+      
+      <!-- Experience Item 1 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="pixel-card timeline-card hoverable">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">Artificial Intelligence Engineer</h3>
+              <p class="company-name">Jiyasys</p>
+            </div>
+            <p class="timeline-date">Apr 2026 - Present</p>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Architected <strong>Edwiser</strong>, an AI career recommendations and psychometric mapping platform utilizing the FIVE-factor OCEAN model, built on a FastAPI, Uvicorn, and Pydantic backend.</li>
+            <li>Designed internal business workflow automation systems using <strong>n8n</strong> and OpenClaw agents, reducing overhead operations.</li>
+            <li>Constructed responsive UI representations using React + Vite and designed visualization dashboards with Recharts for personality and career analysis display.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Experience Item 2 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="pixel-card timeline-card hoverable">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">AI/ML Engineer</h3>
+              <p class="company-name">RK Cloud Software Ltd (RKCSI)</p>
+            </div>
+            <p class="timeline-date">Mar 2025 - Nov 2025</p>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Trained, tuned, and evaluated supervised classification ML models (including Random Forests, Artificial Neural Networks (ANN), and CNN architectures).</li>
+            <li>Engineered automated cross-platform social media posting systems utilizing n8n, OpenAI GPT-4, and stable image synthesis APIs.</li>
+            <li>Constructed chatbot solutions for WhatsApp customer relationship pipelines via custom n8n flows.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Experience Item 3 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="pixel-card timeline-card hoverable">
+          <div class="timeline-header">
+            <div>
+              <h3 class="role-title">Machine Learning Intern</h3>
+              <p class="company-name">Afame Technologies</p>
+            </div>
+            <p class="timeline-date">Jan 2024 - Apr 2024</p>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Built an end-to-end Credit Card Fraud Detection pipeline using Extra Tree Classifiers, solving data class imbalance through under-sampling techniques.</li>
+            <li>Applied systematic preprocessing, feature extraction, evaluation metrics, and logged experiment versions using <strong>MLflow</strong> tracking servers.</li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="pixel-divider">
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-bar"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+  </div>
+
+  <!-- Projects Section -->
+  <section class="projects-section container py-16" id="projects">
+    <h2 class="reveal">Featured Projects</h2>
+    
+    <div class="projects-grid reveal">
+      <!-- Project Slot 1 (Hospital Fall Detection) -->
+      <div class="pixel-card project-card hoverable active-project">
+        <div class="slot-number">#01</div>
+        <div class="slot-content align-left">
+          <div class="project-tags">
+            <span class="proj-tag">YOLOv8-Pose</span>
+            <span class="proj-tag">WebSockets</span>
+            <span class="proj-tag">MongoDB</span>
+          </div>
+          <h3>Hospital Fall Detection</h3>
+          <p class="project-brief">Real-time computer vision system using YOLOv8-Pose to automatically detect patient fall events and alert medical staff in real time.</p>
+        </div>
+        <div class="project-actions">
+          <a href="https://hospital-fall-detection.vercel.app/" target="_blank" rel="noopener noreferrer" class="pixel-button">Launch</a>
+          <button class="pixel-button secondary details-trigger-btn" data-target="fall-detection-modal">Details</button>
+        </div>
+      </div>
+
+      <!-- Project Slot 2 (LexAI) -->
+      <div class="pixel-card project-card hoverable active-project">
+        <div class="slot-number">#02</div>
+        <div class="slot-content align-left">
+          <div class="project-tags">
+            <span class="proj-tag">FastAPI</span>
+            <span class="proj-tag">LangChain</span>
+            <span class="proj-tag">Qdrant</span>
+            <span class="proj-tag">Groq</span>
+            <span class="proj-tag">React</span>
+          </div>
+          <h3>LexAI</h3>
+          <p class="project-brief">AI-powered legal contract analysis platform allowing users to upload contracts, ask plain-English questions with clause citations, and perform one-click risk analysis.</p>
+        </div>
+        <div class="project-actions">
+          <a href="https://lexai-legal-assistant-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="pixel-button">Launch</a>
+          <button class="pixel-button secondary details-trigger-btn" data-target="lexai-modal">Details</button>
+        </div>
+      </div>
+
+      <!-- Project Slot 3 (WhatsApp Content Bot) -->
+      <div class="pixel-card project-card hoverable active-project">
+        <div class="slot-number">#03</div>
+        <div class="slot-content align-left">
+          <div class="project-tags">
+            <span class="proj-tag">n8n</span>
+            <span class="proj-tag">OpenAI GPT</span>
+            <span class="proj-tag">WhatsApp API</span>
+            <span class="proj-tag">Image APIs</span>
+          </div>
+          <h3>WhatsApp Content Bot</h3>
+          <p class="project-brief">Engineered an end-to-end automated social media content pipeline using n8n, GPT models, and image generation APIs — auto-publishing daily and festival-specific posts to client accounts.</p>
+        </div>
+        <div class="project-actions">
+          <a href="#" class="pixel-button secondary" style="pointer-events: none; opacity: 0.5;" onclick="return false;">No Demo</a>
+          <button class="pixel-button secondary details-trigger-btn" data-target="n8n-bot-modal">Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="pixel-divider">
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-bar"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+  </div>
+
+  <!-- Certifications & Achievements Section -->
+  <section class="certs-section container py-16" id="certs">
+    <h2 class="reveal">Certifications & Awards</h2>
+    
+    <div class="certs-grid reveal">
+      <!-- Certification 1 -->
+      <div class="pixel-card cert-card hoverable">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-info">
+          <h3>Top Intern Award</h3>
+          <p>Afame Technologies - Recognized for outstanding Machine Learning contributions and high-quality, reproducible code delivery.</p>
+        </div>
+      </div>
+
+      <!-- Certification 2 -->
+      <div class="pixel-card cert-card hoverable">
+        <div class="cert-icon">🎓</div>
+        <div class="cert-info">
+          <h3>Machine Learning Specialization</h3>
+          <p>Coursera (Stanford/DeepLearning.AI) - Supervised & Unsupervised Learning, Regression, Classification, and Neural Network tuning.</p>
+        </div>
+      </div>
+
+      <!-- Certification 3 -->
+      <div class="pixel-card cert-card hoverable">
+        <div class="cert-icon">☁️</div>
+        <div class="cert-info">
+          <h3>Salesforce Administrator Virtual Internship</h3>
+          <p>AICTE - Learned CRM structures, data architecture, security profiles, validation rules, and automation systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="pixel-divider">
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-bar"></div>
+    <div class="pixel-dot"></div>
+    <div class="pixel-dot"></div>
+  </div>
+
+  <!-- Console Terminal Section -->
+  <section class="container py-16" id="terminal">
+    <div class="terminal-section reveal">
+      <h2 style="text-align:center; margin-bottom: 2rem;">Interactive Terminal</h2>
+      
+      <!-- Terminal Emulator Window -->
+      <div class="terminal-container">
+        <div class="terminal-header-bar">
+          <div class="terminal-buttons">
+            <span class="term-btn red"></span>
+            <span class="term-btn yellow"></span>
+            <span class="term-btn green"></span>
+          </div>
+          <span>priyanshu@portfolio: ~</span>
+          <span>x</span>
+        </div>
+        
+        <div class="terminal-body" id="term-body">
+          <div class="terminal-history" id="term-history">
+            <div class="terminal-output-line">Welcome to Priyanshu's Retro Shell v1.0.0</div>
+            <div class="terminal-output-line">Type <span style="color:#FFC700; font-weight:bold;">help</span> to see a list of available commands.</div>
+            <div class="terminal-output-line"></div>
+          </div>
+          
+          <div class="terminal-input-container">
+            <span class="terminal-prompt">priyanshu@portfolio:~$</span>
+            <input type="text" id="term-input" class="terminal-input" autocomplete="off" spellcheck="false" aria-label="Terminal input prompt">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-logo">Priyanshu<span>Khandelwal</span></div>
+        <p style="margin-top:0.5rem; font-size:1.15rem; color: hsl(var(--muted-text));">AI Engineer specializing in Agentic workflows and LLM Systems integration.</p>
+      </div>
+      
+      <!-- Social Buttons -->
+      <ul class="social-links">
+        <li>
+          <a href="mailto:priyanshusharma9251@gmail.com" class="social-btn" title="Email Priyanshu" aria-label="Email Address">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/anshu9251" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub" aria-label="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/priyanshu92" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn" aria-label="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="container" style="text-align: center; margin-top: 2rem; font-size: 1rem; color: hsl(var(--muted-text));">
+      <p>© 2026 Priyanshu Khandelwal. Built in retro 8-bit style. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div id="contact-modal" class="modal-overlay">
+    <div class="pixel-card modal-container">
+      <div class="modal-header-bar">
+        <span>CONTACT_ME.EXE</span>
+        <button id="close-modal" class="modal-close-btn" aria-label="Close modal">X</button>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title">> Get in Touch</h3>
+        <p class="modal-desc">Feel free to reach out via email or phone. I'm open to discussing new opportunities or collaborations.</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div class="contact-info">
+              <span class="contact-label">EMAIL</span>
+              <a href="mailto:priyanshusharma9251@gmail.com" class="contact-link">priyanshusharma9251@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div class="contact-info">
+              <span class="contact-label">PHONE</span>
+              <a href="tel:+919251081117" class="contact-link">+91 9251081117</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer-buttons">
+          <a href="mailto:priyanshusharma9251@gmail.com" class="pixel-button">Email Me</a>
+          <button id="close-modal-btn" class="pixel-button secondary">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 1 Details Modal -->
+  <div id="fall-detection-modal" class="modal-overlay">
+    <div class="pixel-card modal-container project-detail-modal">
+      <div class="modal-header-bar">
+        <span>FALL_DETECTION.EXE</span>
+        <button class="modal-close-btn close-project-modal" aria-label="Close modal">X</button>
+      </div>
+      <div class="modal-body scrollable-modal-body">
+        <h3 class="modal-title">> Hospital Fall Detection</h3>
+        <p class="modal-desc">Falls are one of the leading causes of injury in hospital settings. Manual monitoring of patients — especially at night or in low-staff situations — is impractical. This system uses computer vision to automatically detect fall events and alert staff in real time.</p>
+        
+        <h4 class="modal-subtitle-small">🔍 How It Works</h4>
+        <ul class="modal-bullets-list">
+          <li><strong>Video Feed Ingestion</strong> — A pre-recorded demo video loops continuously to simulate a live hospital camera feed.</li>
+          <li><strong>Pose Estimation</strong> — Each frame is processed by YOLOv8-Pose, which detects human body keypoints (shoulders, hips, ankles, etc.).</li>
+          <li><strong>Fall Logic</strong> — The system analyzes keypoint positions and angles to determine if a person has fallen (Torso becomes horizontal, center of gravity drops sharply).</li>
+          <li><strong>Real-Time Streaming</strong> — Detected frames and fall events are streamed to the frontend via WebSockets.</li>
+          <li><strong>Alert & Logging</strong> — Fall events are logged to MongoDB Atlas with timestamps for audit and review.</li>
+        </ul>
+
+        <div class="modal-footer-buttons">
+          <a href="https://hospital-fall-detection.vercel.app/" target="_blank" rel="noopener noreferrer" class="pixel-button">Launch App</a>
+          <button class="pixel-button secondary close-project-modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 Details Modal -->
+  <div id="lexai-modal" class="modal-overlay">
+    <div class="pixel-card modal-container project-detail-modal">
+      <div class="modal-header-bar">
+        <span>LEXAI.EXE</span>
+        <button class="modal-close-btn close-project-modal" aria-label="Close modal">X</button>
+      </div>
+      <div class="modal-body scrollable-modal-body">
+        <h3 class="modal-title">> LexAI — Legal Contract Intelligence</h3>
+        <p class="modal-desc">LexAI is an AI-powered legal contract analysis platform designed to help users upload complex legal documents and ask questions in plain English, receiving instant answers with page and clause citations along with structured risk assessments.</p>
+        
+        <h4 class="modal-subtitle-small">🔍 How It Works</h4>
+        <ul class="modal-bullets-list">
+          <li><strong>Document Processing</strong> — Users upload PDF or DOCX contracts, which are parsed and chunked dynamically on the FastAPI backend.</li>
+          <li><strong>Hybrid Vector Retrieval</strong> — Text chunks are converted to vector embeddings and stored in Qdrant Cloud for context-aware similarity searches.</li>
+          <li><strong>RAG Pipeline Orchestration</strong> — LangChain coordinates query analysis and passes relevant contract clauses to Groq's Llama 3.3 70B model.</li>
+          <li><strong>Structured Risk Evaluation</strong> — A specialized agent workflow analyzes the clauses to identify high, medium, and low-risk contractual clauses.</li>
+          <li><strong>SSE Chat Streaming</strong> — Answers are streamed back to a modern React & Vite frontend using Server-Sent Events (SSE) for responsive UX.</li>
+        </ul>
+
+        <div class="modal-footer-buttons">
+          <a href="https://lexai-legal-assistant-seven.vercel.app/" target="_blank" rel="noopener noreferrer" class="pixel-button">Launch App</a>
+          <button class="pixel-button secondary close-project-modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 Details Modal -->
+  <div id="n8n-bot-modal" class="modal-overlay">
+    <div class="pixel-card modal-container project-detail-modal">
+      <div class="modal-header-bar">
+        <span>WHATSAPP_BOT.EXE</span>
+        <button class="modal-close-btn close-project-modal" aria-label="Close modal">X</button>
+      </div>
+      <div class="modal-body scrollable-modal-body">
+        <h3 class="modal-title">> WhatsApp & Social Content Bot</h3>
+        <p class="modal-desc">An end-to-end automated social media content pipeline and customer engagement bot that dynamically generates and publishes tailored marketing content, optimizing agency workflow and client outreach.</p>
+        
+        <h4 class="modal-subtitle-small">🔍 How It Works</h4>
+        <ul class="modal-bullets-list">
+          <li><strong>Workflow Orchestration</strong> — Managed via n8n to connect customer inquiries, calendar triggers, and generation pipelines seamlessly.</li>
+          <li><strong>Generative Copywriting</strong> — OpenAI's GPT models draft engaging daily messaging, responses, and customized, festival-specific posts.</li>
+          <li><strong>Automated Asset Creation</strong> — Image synthesis APIs dynamically generate matching brand illustrations and promotional banners.</li>
+          <li><strong>WhatsApp Pipeline Integration</strong> — A custom customer relationship pipeline responds directly to client and user inquiries over WhatsApp.</li>
+          <li><strong>Auto-Publishing Scheduler</strong> — Publishes daily updates, campaign updates, and celebratory graphics directly to client-facing social accounts.</li>
+        </ul>
+
+        <div class="modal-footer-buttons">
+          <button class="pixel-button secondary close-project-modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="script.js?v=5"></script>
+</body>
+</html>
